@@ -2,17 +2,21 @@
 	<head>
 		<title>index</title>
 		<script src = "./JS/script2.js"></script>
+		<link href ="./css/style.css" rel="stylesheet"/>
 	</head>
 
-	<body>
-		<center>
+	<body onload="initComportementJs()">
+
 			<h1>Calculatrice</h1>
 
 			a: <input id = "a" type="text"/> <br/>
+			<br/>
 			b: <input id = "b" type="text"/> <br/>
-			<input onclick="calculerAddition()" type="button" value="a+b"></input> <br/>
+			<br/>
+			<input onclick="calculerOperation('+')" id="button" type="button" value="a+b"></input> <br/><br/>
+			<input id="btnMultiplication" type="button" value="a*b"></input> <br/><br/>
 
-			Resultat = <span id="spanResultat"></span>
-	</center>
+			Resultat = <span class="enEvidence" id="spanResultat"></span>
+
 	</body>
 </html>

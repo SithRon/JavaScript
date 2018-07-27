@@ -1,0 +1,18 @@
+h1 { color : blue; }
+
+#a, #b { font-weight : bold; }
+
+.enEvidence {font-style : italic;}
+
+body {text-align:center ;}
+
+#button, #btnMultiplication
+{
+	border-radius:12px 0 12px 0;
+	background: #478bf9;
+	border:none;
+	color:#fff;
+	width: 100px;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+}
