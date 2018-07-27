@@ -1,8 +1,8 @@
 function calculerOperation(pOperation)
 	{
-		var a = document.querySelector("#a").value
+		var a = document.querySelector("#a").value;
 		//(document.getElementById("a")).value; 
-		var b = document.querySelector("#b").value 
+		var b = document.querySelector("#b").value;
 		//(document.getElementById("b")).value;
 		
 		var res = 0;
@@ -17,6 +17,8 @@ function calculerOperation(pOperation)
 		document.querySelector("#spanResultat").innerHTML = res;
 	}
 
+
+
 function calculerMultiplication()
 	{
 		calculerOperation("*");
@@ -24,8 +26,8 @@ function calculerMultiplication()
 
 function initComportementJs()
 	{
-		var btnMultiplication = document.querySelector("#btnMultiplication")
+		var btnMultiplication = document.querySelector("#btnMultiplication");
 		//on enregistre le déclement de la fonction calculerMultiplication()
-		btnMultiplication.addEventListener("click", calculerMultiplication, false)
+		btnMultiplication.addEventListener("click", calculerMultiplication, false);
 		//en l'associant à l'évenement "click" sur la zone dont l'id est btnMultiplication
 	}
